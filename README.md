@@ -1,2 +1,2 @@
-# Important_coding_questions---Placements---C-
+# Important_coding_questions---Placements-C++
 here is the list of some of the coding questions asked in placement drives for different companies , the coding questions are in C++ (.cpp) file.
