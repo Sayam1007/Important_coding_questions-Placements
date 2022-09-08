@@ -10,24 +10,25 @@ int main()
     {
         cin>>array[i];
     }
-    int key;
-    cin>>key;
     int beg=0;
     int last=n-1;
+    int mid;
+    int key;
+    cin>>key;
     while(beg<=last)
     {
-        int mid=(beg+last)/2;
+        mid=(beg+last)/2;
         if(array[mid]==key)
         {
             cout<<mid;
             break;
         }
-        else if(array[mid]>key)
+        else if(array[i]>key)
         {
-            last=mid-1;
+         last=mid-1;
         }
         else{
-            last=mid+1;
+         beg=mid+1;
         }
     }
 return 0;}
